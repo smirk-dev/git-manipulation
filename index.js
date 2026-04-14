@@ -5,9 +5,9 @@ import simpleGit from "simple-git";
 const git = simpleGit();
 const filePath = "./data.json";
 
-// Set specific date: September 1st, 2025
+// Set specific date: September 1st, 2023
 const getTargetTimestamp = () => {
-  const date = moment("2025-09-01 12:00:00");
+  const date = moment("2009-09-01 12:00:00");
   return date.format("YYYY-MM-DDTHH:mm:ss");
 };
 
